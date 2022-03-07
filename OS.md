@@ -1,5 +1,5 @@
 # CS
-## Basic - 3
+## OS
 ### * 정리 중
 
 - shell은 명령어(kernel)을 실행시켜주는 프로그램<br>

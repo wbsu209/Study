@@ -1,5 +1,5 @@
 # CS
-## Basic - 2
+## PC Hardware
 ### * PC Structure
 ![ex_screenshot](./img/Meomry.png)
 
