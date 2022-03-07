@@ -12,7 +12,7 @@
 - 해당 도메인 주소를 IP 주소로 반환 (도메인 IP 요청도 레벨에 따라 구분된다.(Local DNS -> another DNS))
 
 **\* url의 구조**
-![ex_screenshot](./img/url_str.png)
+![ex_screenshot](../img/url_str.png)
 
 - Protocol<br>
 http : 평문(Plain Text)으로 요청(url에 기입된 내용 그대로)<br>
