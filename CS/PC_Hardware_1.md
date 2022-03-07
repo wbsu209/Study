@@ -1,7 +1,7 @@
 # CS
 ## PC Hardware
 ### * PC Structure
-![ex_screenshot](./img/Meomry.png)
+![ex_screenshot](../img/Meomry.png)
 
  **\* 저장공간**
 - Disk : 파일의 저장공간(Program)

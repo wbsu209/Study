@@ -1,7 +1,7 @@
 # CS
 ## Network
 ### * Road Map
-![ex_screenshot](./img/map_first.png)
+![ex_screenshot](../img/map_first.png)
 
  Internet = Intranet + \<Inter> + Intranet
 
@@ -25,7 +25,7 @@ https : http + secure, 복호화 되서 정보 전달
 **\* url 요청 시**
 - naver.com 접속 시 <br>
 여러번의 Requet와 Response가 연속적으로 발생
-![ex_screenshot](./img/request_response.PNG)
+![ex_screenshot](../img/request_response.PNG)
 - 많은 요소들을 한번에 요청하는것 보다 세분화하여 장애 대응이나 관리가 편하다.(실무에서도)<br>
 
 **\* Content-Type**
