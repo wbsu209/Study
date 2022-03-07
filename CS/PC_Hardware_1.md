@@ -31,4 +31,5 @@ process a = new process의 두 객체가 다르듯 RAM에 두 a라는 프로세�
 - 이와 같은 ram의 변수를 서로 다른 Thread가 변동 시 제대로된 값을 결과로 발생하지 않음 => Thread 충동 에러 발생 원인
 - Static 변수는 가능하면 변동 가능성이 없는 값을 사용, const를 병행하여 사용
 
-###### 이미지 참조 : https://media.hswstatic.com/eyJidWNrZXQiOiJjb250ZW50Lmhzd3N0YXRpYy5jb20iLCJrZXkiOiJnaWZcL2NvbXB1dGVyLW1lbW9yeS1weXJhbWlkLmdpZiIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MjkwfSwidG9Gb3JtYXQiOiJhdmlmIn19
+##### 이미지 참조 : 
+##### https://media.hswstatic.com/eyJidWNrZXQiOiJjb250ZW50Lmhzd3N0YXRpYy5jb20iLCJrZXkiOiJnaWZcL2NvbXB1dGVyLW1lbW9yeS1weXJhbWlkLmdpZiIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MjkwfSwidG9Gb3JtYXQiOiJhdmlmIn19

@@ -13,7 +13,7 @@
 16기가 램 1개(2 X 8), 8기가 램 2개 (1 X 16)<br>
 1 Task가 8개 라면, 둘 다 1 cycle에 처리 가능<br>
 1 Task가 10개 있다면, 같은 용량이지만 2 X 8 의 경우 1 cycle로 다 처리할 수 없다.
-- https://youtu.be/Vj2rNQFvdDw
+- 
 ---
 ### CPU
 - Core는 물리적인 cpu의 프로세서
@@ -21,6 +21,10 @@
 - HT, SMT로 실제로는 하나지만 멀티로 보여지게 하는 논리적인 cpu
 - 멀티코어가 무조건 좋은가? <br>
 대부분 좋지만, 실행 프로그램의 멀티코어 환경에서의 최적화에 따라 효율이 결정된다.
-- https://youtu.be/_dhLLWJNhwY
+- 
 
-##### 이미지 참조: https://t1.daumcdn.net/cfile/tistory/992774365AC9E8CB1D
+##### 이미지 참조: 
+##### https://t1.daumcdn.net/cfile/tistory/992774365AC9E8CB1D
+##### 영상 참조 : 
+##### https://youtu.be/Vj2rNQFvdDw
+##### https://youtu.be/_dhLLWJNhwY
