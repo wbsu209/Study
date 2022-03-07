@@ -2,6 +2,7 @@
 ## PC Hardware
 ---
 ![ex_screenshot](../img/cputhread.png)
+
 ### RAM
 - Random Access Memory
 - 프로그램이 실행되는 동안 필요한 정보를 저장하는 컴퓨터 메모리
@@ -21,3 +22,5 @@
 - 멀티코어가 무조건 좋은가? <br>
 대부분 좋지만, 실행 프로그램의 멀티코어 환경에서의 최적화에 따라 효율이 결정된다.
 - https://youtu.be/_dhLLWJNhwY
+
+##### 이미지 참조: https://t1.daumcdn.net/cfile/tistory/992774365AC9E8CB1D
