@@ -12,7 +12,7 @@
 - 해당 도메인 주소를 IP 주소로 반환 (도메인 IP 요청도 레벨에 따라 구분된다.(Local DNS -> another DNS))
 
 **\* url의 구조**
-![ex_screenshot](./img/url_str.png)
+![ex_screenshot](../img/url_str.png)
 
 - Protocol<br>
 http : 평문(Plain Text)으로 요청(url에 기입된 내용 그대로)<br>
@@ -41,4 +41,7 @@ Postman 사용 시 querystring과 body 헷갈리지 말 것<br>
 
 **\* 참고 사항**<br>
 http request를 tomcat이 자바 객체로 변환<br>
-tomcat과 spring 둘 다 http를 객체로 사용하기 위함(springboot는 사용자의 편의를 위해 tomcat을 내장한다.)
+tomcat과 spring 둘 다 http를 객체로 사용하기 위함(springboot는 사용자의 편의를 위해 tomcat을 내장한다.)<br>
+##### 이미지 참조 : https://media.vlpt.us/images/seul06/post/eafb79a9-28b1-4742-acb3-fcea6b7a03d2/%E1%84%85%E1%85%A9%E1%84%83%E1%85%B3%E1%84%86%E1%85%A2%E1%86%B803.png
+
+##### https://www.beusable.net/blog/wp-content/uploads/2021/02/image-6.png
