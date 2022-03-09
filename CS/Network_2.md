@@ -61,3 +61,63 @@
 5. authoritative name server의 정보를 갖고있는 Top-Level Domain이 요청을 전달한다.
 6. authoritative name server 해당 IP를 응답한다.
 7. 응답받은 해당 IP를 DNS Server가 Client에게 전달해서 IP주소를 알려준다.
+
+---
+
+#### nslookup 사용법
+- 도메인 이름에 대한 정보를 조회 할 때 사용하는 도구.
+- nslookup example.com<br>
+\>>> <br>
+Server: 168.126.63.1 <br>
+Address : 168.126.63.1#53<br>
+<br>
+Non-authoritative answer : <br>
+Name : example.com <br>
+Address : 93.184.216.34<br>
+
+- 처음 나오는 Address는 컴퓨터에 연결된 DNS Server IP주소
+- Non-authoritative answer는 cache가 응답한 경우 발생
+- 직접 물어보려면 example.com의 Name Server를 알아야한다.
+
+- nslookup -type=ns example.com
+\>>><br>
+Server:		168.126.63.1<br>
+Address:	168.126.63.1#53<br>
+Non-authoritative answer:<br>
+example.com	nameserver = b.iana-servers.net.<br>
+example.com	nameserver = a.iana-servers.net.<br>
+Authoritative answers can be found from:<br>
+a.iana-servers.net	internet address = 199.43.135.53<br>
+b.iana-servers.net	internet address = 199.43.133.53<br>
+a.iana-servers.net	has AAAA address 2001:500:8f::53<br>
+b.iana-servers.net	has AAAA address 2001:500:8d::53<br>
+- Name Server가 2개 운영
+- Name Server를 아래와 같이 직접 요청 가능
+- nslookup example.com a.iana-servers.net<br>
+\>>><br>
+Server : a.iana-servers.net<br>
+Address : 199.43.135.53#53<br>
+Name : example.com<br>
+Address : 93.184.216.34<br>
+
+#### 도메인 이름 장만하기
+- 등록대행자를 통해 등록소에 등록해야한다.
+
+#### DNS record와 CNAME 레코드
+- 도메인 이름에 대한 정보 한건 한건을 DNS Record라고 한다.
+- A : 하나에 도메인에 여러 개의 IP주소 등록
+- AAAA :  A의 확장형으로 도메인에 IPv6 주소가 매핑되어 있는 레코드
+- CNAME : 도메인 별명 레코드라고 하며, Alias라고 하여 기존 도메인에 별명을 붙인 레코드
+- MX : 해당 도메인과 연동되어 있는 메일서버를 확인하는데 사용하는 레코드<br>
+naver.com -> 10:mx1.naver.com
+- NS : 네임서버 레코드로 도메인에 대한 네임서버 권한을 갖고 있는지 알려주는 레코드<br>
+naver.com -> e-ns.naver.com
+- PTR : IP 주소에 대한 도메인 주소를 확일할 수 있는 레코드
+- SOA : 도메인의 정보를 갖고 있는 레코드<br>
+naver -> ns1.naver.com webmaster.naver.com 2021012809 21600 1800 1209600 180
+- TXT : 텍스트를 입력할 수 있는 레코드
+- CAA : 도메인 인증기관에 관련된 레코드
+
+#### Github에 도메인 연결
+- Github의 경우 setting - custom domain을 설정
+
