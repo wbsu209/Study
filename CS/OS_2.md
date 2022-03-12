@@ -1,7 +1,7 @@
 # CS
 ## OS
 ---
-
+- 참고자료 <br>
 https://www.youtube.com/playlist?list=PLuHgQVnccGMBYk9U5yU6fljdZTPPRBy4n
 
 #### CLI 
