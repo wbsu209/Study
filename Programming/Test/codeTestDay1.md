@@ -18,7 +18,6 @@ public class codeTestDay1  {
 <br>
 <pre><code>//시험 성적
 import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -44,7 +43,6 @@ public class Main {
 <br>
 <pre><code>//윤달
 import java.util.Scanner;
-
 public class Main  {
     public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -60,11 +58,11 @@ public class Main  {
 	}
 }</code></pre>
 <br>
-<pre><code>//주사위 상금 계산
+<pre><code>
+//주사위 상금 계산
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
-
 public class Main  {
     public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -100,12 +98,12 @@ public class Main  {
 	}
 }</code></pre>
 <br>
-<code><pre>// 오븐시계
+<pre><code>
+//오븐시간
 import java.util.Scanner;
-
 public class Main {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
 		int a = sc.nextInt();
 		int b = sc.nextInt();
 		int c = sc.nextInt();
@@ -118,5 +116,7 @@ public class Main {
 		}
 		System.out.println(th + " " + tm);
 	}
-}</code></pre>
+}
+</code></pre>
+
 
