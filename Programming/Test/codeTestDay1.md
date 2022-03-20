@@ -15,7 +15,7 @@ public class codeTestDay1  {
 			System.out.println("==");
 	}
 }</code></pre>
-
+<br>
 <pre><code>//시험 성적
 import java.util.Scanner;
 
@@ -41,7 +41,7 @@ public class Main {
 		}
 	}
 }</code></pre>
-
+<br>
 <pre><code>//윤달
 import java.util.Scanner;
 
@@ -59,7 +59,7 @@ public class Main  {
 		else System.out.println("0");
 	}
 }</code></pre>
-
+<br>
 <pre><code>//주사위 상금 계산
 import java.util.ArrayList;
 import java.util.Collections;
@@ -99,3 +99,24 @@ public class Main  {
 		}
 	}
 }</code></pre>
+<br>
+<code><pre>// 오븐시계
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+		int a = sc.nextInt();
+		int b = sc.nextInt();
+		int c = sc.nextInt();
+		sc.close();
+		int total = a * 60 + b + c;
+		int th = total / 60;
+		int tm = total % 60;
+		if(th >= 24){
+			th = th - 24;
+		}
+		System.out.println(th + " " + tm);
+	}
+}</code></pre>
+
