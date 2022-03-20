@@ -1,5 +1,5 @@
-package Test;
+package CodeTest;
 
-public class chap01 {
+public class Day1 {
     
 }
