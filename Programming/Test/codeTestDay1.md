@@ -60,7 +60,7 @@ public class Main  {
 	}
 }</code></pre>
 
-<pre><code>//윤달
+<pre><code>//주사위 상금 계산
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
