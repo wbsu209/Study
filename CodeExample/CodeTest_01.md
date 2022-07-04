@@ -62,7 +62,7 @@ public class Main  {
 
 
 <br>
-
+<pre><code>
 //오븐시간
 import java.util.Scanner;
 public class Main {
@@ -82,3 +82,5 @@ public class Main {
 	}
 }
 </code></pre>
+
+<br>
