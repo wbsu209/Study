@@ -1,10 +1,4 @@
-import java.io.ObjectOutputStream.PutField;
-//import java.lang.invoke.ClassSpecializer.Factory;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Objects;
-
-import javax.xml.crypto.dsig.keyinfo.RetrievalMethod;
 
 public class Main {
     private static final int MIN_AGE = 20;
