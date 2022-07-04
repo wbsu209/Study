@@ -45,5 +45,5 @@ util class
 q6 : 재귀
 
 ---
-callback
-동기 비동기
+callback : 기능의 완료의 순간 실행되는 이벤트
+

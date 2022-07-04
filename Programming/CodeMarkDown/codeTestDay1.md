@@ -56,9 +56,12 @@ public class Main  {
 		}
 		else System.out.println("0");
 	}
-}</code></pre>
+}
+
 <br>
-<pre><code>
+
+<pre>
+<code>
 //주사위 상금 계산
 import java.util.ArrayList;
 import java.util.Collections;
@@ -96,9 +99,9 @@ public class Main  {
 			System.out.println(val);
 		}
 	}
-}</code></pre>
+}
 <br>
-<pre><code>
+
 //오븐시간
 import java.util.Scanner;
 public class Main {
@@ -118,5 +121,4 @@ public class Main {
 	}
 }
 </code></pre>
-
 
