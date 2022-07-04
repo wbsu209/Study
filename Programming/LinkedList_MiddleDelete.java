@@ -39,7 +39,7 @@ class LinkedList{
         }
         System.out.print(n.data);
     }
-    
+
     Node get(int d) {
         Node n = header;
         for (int j = 0; j < d; j++)
@@ -48,6 +48,7 @@ class LinkedList{
         }
         return n;
     }
+    
 }
 
 public class LinkedList_MiddleDelete {
@@ -59,13 +60,15 @@ public class LinkedList_MiddleDelete {
         ll.append(4);
         ll.append(5);
         ll.retrieve();
+        deleteNode(ll.get(2));
+        ll.retrieve();
     }
 
-    private static boolean deleteNode(Node n){
+    private static boolean deleteNode(LinkedList.Node n){
         if(n == null || n.next == null){
             return false;
         }
-        Node next = n.next;
+        LinkedList.Node next = n.next;
         n.data = next.data;
         n.next = next.next;
         return true;

@@ -54,6 +54,14 @@ class LinkedList {
             n = n.next;
         }
     }
+
+    public Node get(int i){
+        Node n = header;
+        for(int j = 0; j < i; j++){
+            n = n.next;
+        }
+        return n;
+    }
 }
 
 public class LinkedList_Deduplication {
