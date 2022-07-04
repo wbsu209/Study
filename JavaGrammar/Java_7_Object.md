@@ -10,8 +10,8 @@ int value = date.getDayofWeek().getValue();<br>
 --- 
 
 - 객체 참고 : 자바에서는 변수에 오직 객체에 대한 참조를 담을 수 있다.<br>
-<pre><code>ArrayList<String> people = friends;
-people.add("Paul");</code></pre>
+ArrayList<String> people = friends;<br>
+people.add("Paul");<br>
 people, friends의 크기가 2가 된게 아니라, people과 friends가 참조하는 배열리스트의 크기가 2가 된 것.
 <pre><code>date = LocalDate.of(year, month, 1);
 date = date.plusDays(1);

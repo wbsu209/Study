@@ -12,11 +12,12 @@
 - 배열리스트 선언 : ArrayList<Integer> numbers = new ArrayList<>();
 
 - 배열과 반복문
-<pre><code>ArrayList<String> people = new ArrayList<>();
-...
-for (String name : people) {
-    ...
-}</code></pre>
+<br>
+ArrayList<String> people = new ArrayList<>();
+...<br>
+for (String name : people) {<br>
+    ...<br>
+}
 
 - 배열과 배열리스트 복사<br>
 . 배열 값을 공유<br>
