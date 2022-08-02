@@ -19,7 +19,7 @@
 * 데이터의 구조와 역할을 하나의 캡슐 형태로 구성
 ->변수를 private 로 선언하여 데이터를 보호하고, getter/setter등의 메서드를 통해서만 간접적으로 접근 할 있게 한다.
 * 캡슐화 != 정보은닉
-
+```
 class Shop 
 {
     private ArrayList items = new ArrayList();
@@ -27,6 +27,7 @@ class Shop
         return items;
     }
 }
+```
 ### 2) 추상화 (Abstraction)
 * 객체의 공통적인 속성과 기능 추출하여 정의
 * 데이터 추상화 : 복잡합 데이터 형태를 생성하기 위해 작은 데이터 여려개를 사용하는 방법

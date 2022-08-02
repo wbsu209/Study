@@ -2,6 +2,7 @@
 
 ## 1) DI(Dependency Injection)
 1. 생성자 주입
+```
 public class Book {
     private final Fiction fiction;
     
@@ -10,12 +11,14 @@ public class Book {
     	this.fiction = fiction;
     }
 }
+```
 Book 객체를 생성할 때 fiction객체를 매개변수로 전달하여, 의존성 주입
 - 단위 테스트 용이
 - 주입 받는 객체 final 선언 가능
 - Spring Framework에서 권장
 
 2. Setter 주입
+```
 public class Book {
     private Fiction fiction;
     
@@ -24,11 +27,14 @@ public class Book {
     	this.fiction = fiction;
     }
 }
+```
 주입 받은 객체가 변할 수 있을 때 사용, 하지만 변경되는 드물다.
+```
 public class Book {
     @Autowired
     pirvate Fiction fiction;
 }
+```
 코드는 간결해지지만, Spring이 외부에서 fiction을 찾아 Book에 넣어줘야한다.
 유닛 테스트가 어렵고, 서로 참조 하다가 순환 참조 발생 가능성이 있다.
 

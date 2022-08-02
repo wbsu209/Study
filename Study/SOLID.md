@@ -2,6 +2,7 @@
 
 ## 1) Single Responsiblity Principle (단일 책임 원칙)
 * 응집도는 높고 결합도는 낮게 하기 위함
+```
 class Book {
     final static Boolean fiction = false;
     final static Boolean non_fiction = true;
@@ -30,10 +31,11 @@ class Non_Fiction extends Book{
         //논픽션
     }
 }
-
+```
 
 ## 2) Open-Closed Principle (개방-폐쇄 원칙)
 * 기존 코드를 변경하지 않고(Close) 추가(Open)할 수 있도록 설계
+```
 class SoundPlayer{
     void play(){
         //wav재생
@@ -61,6 +63,7 @@ class Mp3 implements playType{
         //mp3재생
     }
 }
+```
 ## 3) Liskov Substitution Principle (리스코프 치환 원칙)
 * 자식 클래스는 부모클래스에서 가능한 행위를 수행할 수 있어야 한다.
 * 일반화 관계가 성립해야한다.
@@ -76,6 +79,7 @@ ex) 스마트폰 기능 (전화 / 웹서핑 / 게임 / 각종 어플리케이션
 * 변화하기 쉬운 것 - 구체적인 것 - 구체화 된 클래스
 * 변화하기 어려운 것 - 추상적인 것 - 추상클래스, 인터페이스
 * 의존 관계를 맺을 때, 구체적인 클래스 보다 인터페이스나 추상 클래스와 관계를 맺는 것
+```
 class SoundPlayer{
     private playType file;
     
@@ -96,3 +100,4 @@ public class Client {
         sp.play();
     }
 }
+```
